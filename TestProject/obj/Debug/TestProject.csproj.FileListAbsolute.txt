@@ -1,0 +1,32 @@
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\TestProject.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\TestProject.pdb
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\WebDriver.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\WebDriver.xml
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\obj\Debug\TestProject.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\obj\Debug\TestProject.pdb
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\WebDriver.Support.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\WebDriver.Support.xml
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\PageMethods.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\PageObjects.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\PageMethods.pdb
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\PageObjects.pdb
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\ThoughtWorks.Selenium.Core.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\TestProject\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\src\TestProject\TestProject\TestProject\bin\Debug\TestProject.dll
+C:\src\TestProject\TestProject\TestProject\bin\Debug\TestProject.pdb
+C:\src\TestProject\TestProject\TestProject\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\src\TestProject\TestProject\TestProject\bin\Debug\PageMethods.dll
+C:\src\TestProject\TestProject\TestProject\bin\Debug\PageObjects.dll
+C:\src\TestProject\TestProject\TestProject\bin\Debug\ThoughtWorks.Selenium.Core.dll
+C:\src\TestProject\TestProject\TestProject\bin\Debug\WebDriver.dll
+C:\src\TestProject\TestProject\TestProject\bin\Debug\WebDriver.Support.dll
+C:\src\TestProject\TestProject\TestProject\bin\Debug\PageMethods.pdb
+C:\src\TestProject\TestProject\TestProject\bin\Debug\PageObjects.pdb
+C:\src\TestProject\TestProject\TestProject\bin\Debug\ThoughtWorks.Selenium.Core.xml
+C:\src\TestProject\TestProject\TestProject\bin\Debug\WebDriver.xml
+C:\src\TestProject\TestProject\TestProject\bin\Debug\WebDriver.Support.xml
+C:\src\TestProject\TestProject\TestProject\obj\Debug\TestProject.csprojResolveAssemblyReference.cache
+C:\src\TestProject\TestProject\TestProject\obj\Debug\TestProject.dll
+C:\src\TestProject\TestProject\TestProject\obj\Debug\TestProject.pdb

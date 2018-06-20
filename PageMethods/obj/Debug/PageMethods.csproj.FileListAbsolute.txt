@@ -1,0 +1,22 @@
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageMethods\obj\Debug\PageMethods.csprojResolveAssemblyReference.cache
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageMethods\bin\Debug\PageMethods.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageMethods\bin\Debug\PageMethods.pdb
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageMethods\bin\Debug\PageObjects.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageMethods\bin\Debug\WebDriver.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageMethods\bin\Debug\WebDriver.Support.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageMethods\bin\Debug\PageObjects.pdb
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageMethods\bin\Debug\WebDriver.xml
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageMethods\bin\Debug\WebDriver.Support.xml
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageMethods\obj\Debug\PageMethods.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageMethods\obj\Debug\PageMethods.pdb
+C:\src\TestProject\TestProject\PageMethods\bin\Debug\PageMethods.dll
+C:\src\TestProject\TestProject\PageMethods\bin\Debug\PageMethods.pdb
+C:\src\TestProject\TestProject\PageMethods\bin\Debug\PageObjects.dll
+C:\src\TestProject\TestProject\PageMethods\bin\Debug\WebDriver.dll
+C:\src\TestProject\TestProject\PageMethods\bin\Debug\WebDriver.Support.dll
+C:\src\TestProject\TestProject\PageMethods\bin\Debug\PageObjects.pdb
+C:\src\TestProject\TestProject\PageMethods\bin\Debug\WebDriver.xml
+C:\src\TestProject\TestProject\PageMethods\bin\Debug\WebDriver.Support.xml
+C:\src\TestProject\TestProject\PageMethods\obj\Debug\PageMethods.csprojResolveAssemblyReference.cache
+C:\src\TestProject\TestProject\PageMethods\obj\Debug\PageMethods.dll
+C:\src\TestProject\TestProject\PageMethods\obj\Debug\PageMethods.pdb

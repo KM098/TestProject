@@ -1,0 +1,17 @@
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageObjects\bin\Debug\PageObjects.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageObjects\bin\Debug\PageObjects.pdb
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageObjects\obj\Debug\PageObjects.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageObjects\obj\Debug\PageObjects.pdb
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageObjects\bin\Debug\WebDriver.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageObjects\bin\Debug\WebDriver.Support.dll
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageObjects\bin\Debug\WebDriver.xml
+c:\users\kamakimu\documents\visual studio 2015\Projects\TestProject\PageObjects\bin\Debug\WebDriver.Support.xml
+C:\src\TestProject\TestProject\PageObjects\bin\Debug\PageObjects.dll
+C:\src\TestProject\TestProject\PageObjects\bin\Debug\PageObjects.pdb
+C:\src\TestProject\TestProject\PageObjects\bin\Debug\WebDriver.dll
+C:\src\TestProject\TestProject\PageObjects\bin\Debug\WebDriver.Support.dll
+C:\src\TestProject\TestProject\PageObjects\bin\Debug\WebDriver.xml
+C:\src\TestProject\TestProject\PageObjects\bin\Debug\WebDriver.Support.xml
+C:\src\TestProject\TestProject\PageObjects\obj\Debug\PageObjects.csprojResolveAssemblyReference.cache
+C:\src\TestProject\TestProject\PageObjects\obj\Debug\PageObjects.dll
+C:\src\TestProject\TestProject\PageObjects\obj\Debug\PageObjects.pdb
