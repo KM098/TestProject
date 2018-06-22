@@ -11,18 +11,5 @@ namespace PageObjects
         }
 
         public IWebElement EmailPopUp => _driver.FindElement(By.ClassName("signup-offer-form"));
-        //public IWebElement EmailPopUp => FindElementNull(_driver, By.ClassName("signup-offer-form"));
-
-        //public IWebElement FindElementNull(IWebDriver driver, By by)
-        //{
-        //    try
-        //    {
-        //        return driver.FindElement(by);
-        //    }
-        //    catch (NoSuchElementException)
-        //    {
-        //        return null;
-        //    }
-        //}
     }
 }

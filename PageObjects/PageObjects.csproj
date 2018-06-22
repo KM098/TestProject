@@ -51,7 +51,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BasePageObjects.cs" />
     <Compile Include="HomePageObjects.cs" />
+    <Compile Include="IBasePageObjects.cs" />
     <Compile Include="IHomePageObjects.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

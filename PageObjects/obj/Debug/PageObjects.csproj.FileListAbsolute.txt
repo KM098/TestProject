@@ -12,6 +12,6 @@ C:\src\TestProject\TestProject\PageObjects\bin\Debug\WebDriver.dll
 C:\src\TestProject\TestProject\PageObjects\bin\Debug\WebDriver.Support.dll
 C:\src\TestProject\TestProject\PageObjects\bin\Debug\WebDriver.xml
 C:\src\TestProject\TestProject\PageObjects\bin\Debug\WebDriver.Support.xml
-C:\src\TestProject\TestProject\PageObjects\obj\Debug\PageObjects.csprojResolveAssemblyReference.cache
 C:\src\TestProject\TestProject\PageObjects\obj\Debug\PageObjects.dll
 C:\src\TestProject\TestProject\PageObjects\obj\Debug\PageObjects.pdb
+C:\src\TestProject\TestProject\PageObjects\obj\Debug\PageObjects.csprojResolveAssemblyReference.cache

@@ -1,23 +1,23 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using OpenQA.Selenium;
+﻿using OpenQA.Selenium;
+using PageObjects;
 
 namespace PageMethods
 {
-    public class BaseSetUp
+    public abstract class BaseSetUp
     {
-        private readonly IWebDriver _driver;
-        private readonly string PageTitle;
-        private readonly string PageUrl;
+        private readonly IBasePageObjects _iBasePageObjects;
 
-        //public BaseSetup(IWebDriver driver, string pageTitle, string pageUrl)
-        //{
-        //    _driver = driver;
-        //    PageTitle = pageTitle;
-        //    PageUrl = pageUrl;
-        //}
+        public BaseSetUp(IBasePageObjects iBasePageObjects)
+        {
+            _iBasePageObjects = iBasePageObjects;           
+        }
+
+        public bool IsDisplayed(IWebElement element) => element == null ? false : element.Displayed;
+
+        public void GoTo(string paramUrl) => _iBasePageObjects.Driver.Navigate().GoToUrl(paramUrl);
+
+        public virtual bool IsAt() => GetTitle() == _iBasePageObjects.PageTitle;
+
+        public string GetTitle() => _iBasePageObjects.Wait.Until<string>((d) => { return _iBasePageObjects.Driver.Title; });
     }
 }

@@ -51,9 +51,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BaseMethods.cs" />
     <Compile Include="BaseSetUp.cs" />
-    <Compile Include="HomePageMethods.cs" />
+    <Compile Include="HomePageMethodsPhil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,9 +4,9 @@ using System.Reflection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
 using PageMethods;
 using PageObjects;
-using Selenium;
 
 namespace TestProject
 {
@@ -14,9 +14,10 @@ namespace TestProject
     public class HomePage
     {
         private IWebDriver _driver;
-        public HomePageMethods Homepage;
+        public HomePageMethodsPhil Homepage;
         private IHomePageObjects _iHomePageObjects;
-        
+        private IBasePageObjects _iBasePageObjects;
+
 
         [TestInitialize]
         public void TestInitialize()
@@ -41,8 +42,13 @@ namespace TestProject
 
         public void InitializePageMethods()
         {
-            _iHomePageObjects = new HomePageObjects(_driver);            
-            Homepage = new HomePageMethods(_iHomePageObjects, _driver);
+            _iHomePageObjects = new HomePageObjects(_driver);
+            _iBasePageObjects = new BasePageObjects();
+            _iBasePageObjects.Driver = _driver;
+            _iBasePageObjects.PageTitle = "Lowe's Canada: Home Improvement, Appliances, Tools, Bathroom, Kitchen";
+            _iBasePageObjects.PageUrl = "https://www.lowes.ca";
+            _iBasePageObjects.Wait = new WebDriverWait(_driver, TimeSpan.FromMinutes(2));
+            Homepage = new HomePageMethodsPhil(_iHomePageObjects, _iBasePageObjects);
         }
 
         public IWebDriver InitializeDriver()
