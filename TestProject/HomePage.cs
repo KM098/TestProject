@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -53,9 +54,8 @@ namespace TestProject
 
         public IWebDriver InitializeDriver()
         {
-            ChromeOptions options = new ChromeOptions();
-            options.AddArgument("--disable-extensions");
-            options.AddArgument("disable-infobars");            
+            var options = new ChromeOptions();            
+            options.AddArgument("--headless");                     
             _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), options, TimeSpan.FromSeconds(120));
             _driver.Manage().Window.Maximize();
             _driver.Manage().Cookies.DeleteAllCookies();
