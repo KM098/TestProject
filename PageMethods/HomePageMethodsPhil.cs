@@ -13,5 +13,6 @@ namespace PageMethods
             _IBasePageObjects = iBasePageObjects;
         }
         public bool IsEmailPopUpDisplayed() => IsDisplayed(_IHomePageObjects.EmailPopUp);
+        public void CloseEmailPopUp() => ClosePopBox(_IHomePageObjects.EmailPopUpCloseButton);
     }
 }

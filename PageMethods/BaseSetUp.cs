@@ -19,5 +19,7 @@ namespace PageMethods
         public virtual bool IsAt() => GetTitle() == _iBasePageObjects.PageTitle;
 
         public string GetTitle() => _iBasePageObjects.Wait.Until<string>((d) => { return _iBasePageObjects.Driver.Title; });
+
+        public void ClosePopBox(IWebElement closeButton) => closeButton.Click();
     }
 }

@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
 using System.Reflection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
@@ -33,6 +32,14 @@ namespace TestProject
             Homepage.GoTo("https://www.lowes.ca");
             Assert.IsTrue(Homepage.IsAt(), "Homepage doesn't open");
             Assert.IsTrue(Homepage.IsEmailPopUpDisplayed(), "Eamil pop up doesn't open");
+        }
+
+        [TestMethod]
+        public void CloseEmailPopBox()
+        {
+            Homepage.GoTo("https://www.lowes.ca");
+            Homepage.CloseEmailPopUp();
+            Assert.IsFalse(Homepage.IsEmailPopUpDisplayed(), "Eamil pop up is not closed");
         }
 
         [TestCleanup]

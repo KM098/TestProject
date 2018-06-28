@@ -11,5 +11,6 @@ namespace PageObjects
         }
 
         public IWebElement EmailPopUp => _driver.FindElement(By.ClassName("signup-offer-form"));
+        public IWebElement EmailPopUpCloseButton => _driver.FindElement(By.ClassName("mfp-close"));
     }
 }
