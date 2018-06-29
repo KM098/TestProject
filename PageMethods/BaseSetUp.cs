@@ -1,4 +1,5 @@
-﻿using OpenQA.Selenium;
+﻿using System;
+using OpenQA.Selenium;
 using PageObjects;
 
 namespace PageMethods
@@ -21,5 +22,24 @@ namespace PageMethods
         public string GetTitle() => _iBasePageObjects.Wait.Until<string>((d) => { return _iBasePageObjects.Driver.Title; });
 
         public void ClosePopBox(IWebElement closeButton) => closeButton.Click();
+
+        public string GetH1Text() => _iBasePageObjects.Driver.FindElement(By.TagName("h1")).Text;
+
+        public void EnterText(IWebElement textBox, string text, bool clearBeforeEntering = false)
+        {
+            try
+            {
+                if (clearBeforeEntering)
+                {
+                    textBox.Clear();
+                }
+
+                textBox.SendKeys(text);
+            }
+            catch (Exception ex)
+            {
+                throw new ApplicationException("Unable to enter text \"" + text + "\" in the textbox: " + ex.Message);
+            }
+        }
     }
 }

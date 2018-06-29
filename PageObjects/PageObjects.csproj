@@ -55,7 +55,11 @@
     <Compile Include="HomePageObjects.cs" />
     <Compile Include="IBasePageObjects.cs" />
     <Compile Include="IHomePageObjects.cs" />
+    <Compile Include="ISearchPageObjects.cs" />
+    <Compile Include="ITopNavigationPageObjects.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchPageObjects.cs" />
+    <Compile Include="TopNavigationPageObjects.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

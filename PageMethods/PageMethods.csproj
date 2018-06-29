@@ -54,6 +54,8 @@
     <Compile Include="BaseSetUp.cs" />
     <Compile Include="HomePageMethodsPhil.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SearchPageMethods.cs" />
+    <Compile Include="TopNavigationPageMethods.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
