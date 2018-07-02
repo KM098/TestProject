@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
@@ -10,7 +10,7 @@ using PageObjects;
 
 namespace TestProject
 {
-    [TestClass]
+    [TestFixture]
     public class HomePage
     {
         private IWebDriver _driver;
@@ -19,14 +19,14 @@ namespace TestProject
         private IBasePageObjects _iBasePageObjects;
 
 
-        [TestInitialize]
+        [OneTimeSetUp]
         public void TestInitialize()
         {
             _driver = InitializeDriver(); ;
             InitializePageMethods();
         }
 
-        [TestMethod]
+        [Test]
         public void OpneHomePage()
         {
             Homepage.GoTo("https://www.lowes.ca");
@@ -34,7 +34,7 @@ namespace TestProject
             Assert.IsTrue(Homepage.IsEmailPopUpDisplayed(), "Eamil pop up doesn't open");
         }
 
-        [TestMethod]
+        [Test]
         public void CloseEmailPopBox()
         {
             Homepage.GoTo("https://www.lowes.ca");
@@ -42,7 +42,7 @@ namespace TestProject
             Assert.IsFalse(Homepage.IsEmailPopUpDisplayed(), "Eamil pop up is not closed");
         }
 
-        [TestCleanup]
+        [TearDown]
         public void TestCleanup()
         {
             _driver.Quit();

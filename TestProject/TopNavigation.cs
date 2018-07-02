@@ -1,7 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Reflection;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NUnit.Framework;
 using OpenQA.Selenium;
 using OpenQA.Selenium.Chrome;
 using OpenQA.Selenium.Support.UI;
@@ -10,7 +10,7 @@ using PageObjects;
 
 namespace TestProject
 {
-    [TestClass]
+    [TestFixture]
     public class TopNavigation
     {
         private IWebDriver _driver;
@@ -22,14 +22,14 @@ namespace TestProject
         public SearchPageMethods SearchPage;
         private ISearchPageObjects _iSearchPageObjects;
 
-        [TestInitialize]
+        [OneTimeSetUp]
         public void TestInitialize()
         {
             _driver = InitializeDriver(); ;
             InitializePageMethods();
         }
 
-        [TestMethod]
+        [Test]
         public void SearchByTerm()
         {
             Homepage.GoTo("https://www.lowes.ca");
@@ -38,7 +38,7 @@ namespace TestProject
             Assert.AreEqual("Chandeliers", SearchPage.GetH1Text(), "H1 text is not expected");
         }
 
-        [TestCleanup]
+        [TearDown]
         public void TestCleanup()
         {
             _driver.Quit();
